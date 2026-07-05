@@ -45,7 +45,7 @@ def generate_premium_analysis(skills, missing_skills, resume_text):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt}
             ],
-            model="llama-3.3-70b-versatile",
+            model="openai/gpt-oss-120b",
             temperature=0.1, 
             response_format={"type": "json_object"} 
         )
