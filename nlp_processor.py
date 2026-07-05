@@ -11,12 +11,7 @@ ruler=nlp.add_pipe("entity_ruler",before="ner")
 #2 build the hardcoded knowledge base
 #in a real enterprise app, this would be a database of 10,000+ skills
 #we are starting with a core subset to prove the architecture
-<<<<<<< HEAD
-=======
-#2 build the hardcoded knowledge base
-#in a real enterprise app, this would be a database of 10,000+ skills
-#we are starting with a core subset to prove the architecture
->>>>>>> e55486689082b968fcbd9c4fb6a34d3cf60d0e45
+
 tech_skills = [
     # Core CS & Languages
     "C", "C++", "Java", "Python", "JavaScript", "TypeScript", "Go", "Rust", "Ruby", "PHP", 
